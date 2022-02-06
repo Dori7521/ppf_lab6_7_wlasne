@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    height: 220px;
+    background-color: #1D2610;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.socialMedia svg{
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.stopa{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.footer  p{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .socialMedia svg{
+        color: whitesmoke;
+        margin: 20px;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .footer p{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+    
+    }
+    .stopa{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 648px) {
+    .socialMedia svg{
+        color: whitesmoke;
+        margin: 20px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    .footer p{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 13px;
+    
+    }
+    .stopa{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .socialMedia svg{
+        color: whitesmoke;
+        margin: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .footer p{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+    
+    }
+    .stopa{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+  }
